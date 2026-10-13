@@ -1,0 +1,700 @@
+{
+ "recordedAt": "2026-10-13T16:45:32.716Z",
+ "form": {
+  "candidateName": "Jordan Lee",
+  "title": "Senior Engineer",
+  "department": "Engineering",
+  "company": "US Operations",
+  "startDate": "2026-10-30"
+ },
+ "chosenId": "alt-8",
+ "options": {
+  "titles": [
+   "Analyst",
+   "Associate",
+   "Consultant",
+   "Coordinator",
+   "Director",
+   "Engineer",
+   "Lead",
+   "Manager",
+   "Principal",
+   "Senior Analyst",
+   "Senior Engineer",
+   "Senior Manager",
+   "Specialist",
+   "VP"
+  ],
+  "departments": [
+   "Customer Service",
+   "Engineering",
+   "Finance",
+   "Human Resources",
+   "IT",
+   "Legal",
+   "Marketing",
+   "Operations",
+   "Procurement",
+   "R&D",
+   "Sales",
+   "Supply Chain"
+  ],
+  "companies": [
+   "EU Operations",
+   "Japan Operations",
+   "US Operations"
+  ]
+ },
+ "template": {
+  "title": "Senior Engineer",
+  "company": "US Operations",
+  "department": "Engineering",
+  "region": "North America",
+  "roleFamily": "ENGINEERING",
+  "salary": 127200,
+  "salary_min": 101800,
+  "salary_max": 152600,
+  "pay_grade": 5,
+  "currency": "USD",
+  "flsa_status": "Exempt",
+  "employment_type": "Full-Time",
+  "location": 1,
+  "peers": 36,
+  "dept_peers": 5,
+  "benefits": {
+   "company": "US Operations",
+   "region": "North America",
+   "grade_min": 5,
+   "grade_max": 7,
+   "medical_plan": "PPO Plus",
+   "employer_medical_annual": 11200,
+   "retirement_plan": "401(k)",
+   "retirement_match_pct": 5,
+   "pto_days": 20,
+   "bonus_target_pct": 12,
+   "equity_eligible": true,
+   "benefits_load_pct": 30
+  },
+  "loadedAnnualCost": 165360,
+  "dailyLoadedCost": 636,
+  "source": "SAP_PEOPLE_360.ANALYTICS.DT_WORKFORCE_360 (SuccessFactors EC via SAP BDC) + SAP_PEOPLE_360.ONBOARDING.BENEFITS_PLAN (demo enrichment)"
+ },
+ "kit": {
+  "items": [
+   {
+    "item_code": "BADGE",
+    "item_name": "Access badge",
+    "item_spec": "Site access badge",
+    "quantity": 1,
+    "is_critical": true,
+    "site": "Palo Alto IT Depot",
+    "on_hand": 64,
+    "reserved": 2,
+    "available": 62,
+    "supplier_id": "SUP100112",
+    "supplier_name": "Preferred IT Reseller (US)",
+    "channel": "Catalog / framework contract",
+    "contract_id": "FWK-US-IT-2025",
+    "unit_cost": 8,
+    "currency": "USD",
+    "std_lead_days": 1,
+    "current_lead_days": 1,
+    "supply_status": "AVAILABLE",
+    "disruption_note": null,
+    "fulfillment": "STOCK",
+    "readyDate": "2026-10-14",
+    "blocking": false,
+    "lostWorkdays": 0
+   },
+   {
+    "item_code": "LAP-ENG-16",
+    "item_name": "Engineering laptop 16\"",
+    "item_spec": "16\" Intel Core Ultra 7 / 32GB RAM / 1TB SSD / dGPU",
+    "quantity": 1,
+    "is_critical": true,
+    "site": "Palo Alto IT Depot",
+    "on_hand": 1,
+    "reserved": 1,
+    "available": 0,
+    "supplier_id": "SUP100112",
+    "supplier_name": "Preferred IT Reseller (US)",
+    "channel": "Catalog / framework contract",
+    "contract_id": "FWK-US-IT-2025",
+    "unit_cost": 2250,
+    "currency": "USD",
+    "std_lead_days": 7,
+    "current_lead_days": 42,
+    "supply_status": "BACKORDERED",
+    "disruption_note": "OEM allocation cut: standard-config business laptops backordered (memory/CPU allocation shortage). Supplier commits to 42-day ship.",
+    "fulfillment": "PREFERRED",
+    "readyDate": "2026-11-24",
+    "blocking": true,
+    "lostWorkdays": 17
+   },
+   {
+    "item_code": "DOCK-USBC",
+    "item_name": "USB-C dock",
+    "item_spec": "USB-C 100W PD dock, 2x DP",
+    "quantity": 1,
+    "is_critical": false,
+    "site": "Palo Alto IT Depot",
+    "on_hand": 22,
+    "reserved": 2,
+    "available": 20,
+    "supplier_id": "SUP100112",
+    "supplier_name": "Preferred IT Reseller (US)",
+    "channel": "Catalog / framework contract",
+    "contract_id": "FWK-US-IT-2025",
+    "unit_cost": 190,
+    "currency": "USD",
+    "std_lead_days": 3,
+    "current_lead_days": 3,
+    "supply_status": "AVAILABLE",
+    "disruption_note": null,
+    "fulfillment": "STOCK",
+    "readyDate": "2026-10-14",
+    "blocking": false,
+    "lostWorkdays": 0
+   },
+   {
+    "item_code": "HS-UC",
+    "item_name": "Headset",
+    "item_spec": "UC-certified stereo headset",
+    "quantity": 1,
+    "is_critical": false,
+    "site": "Palo Alto IT Depot",
+    "on_hand": 20,
+    "reserved": 2,
+    "available": 18,
+    "supplier_id": "SUP100112",
+    "supplier_name": "Preferred IT Reseller (US)",
+    "channel": "Catalog / framework contract",
+    "contract_id": "FWK-US-IT-2025",
+    "unit_cost": 120,
+    "currency": "USD",
+    "std_lead_days": 3,
+    "current_lead_days": 3,
+    "supply_status": "AVAILABLE",
+    "disruption_note": null,
+    "fulfillment": "STOCK",
+    "readyDate": "2026-10-14",
+    "blocking": false,
+    "lostWorkdays": 0
+   },
+   {
+    "item_code": "KB-WL",
+    "item_name": "Wireless keyboard",
+    "item_spec": "Full-size wireless keyboard",
+    "quantity": 1,
+    "is_critical": false,
+    "site": "Palo Alto IT Depot",
+    "on_hand": 29,
+    "reserved": 2,
+    "available": 27,
+    "supplier_id": "SUP100112",
+    "supplier_name": "Preferred IT Reseller (US)",
+    "channel": "Catalog / framework contract",
+    "contract_id": "FWK-US-IT-2025",
+    "unit_cost": 45,
+    "currency": "USD",
+    "std_lead_days": 2,
+    "current_lead_days": 2,
+    "supply_status": "AVAILABLE",
+    "disruption_note": null,
+    "fulfillment": "STOCK",
+    "readyDate": "2026-10-14",
+    "blocking": false,
+    "lostWorkdays": 0
+   },
+   {
+    "item_code": "MON-27",
+    "item_name": "27\" monitor",
+    "item_spec": "27\" QHD IPS, USB-C",
+    "quantity": 2,
+    "is_critical": false,
+    "site": "Palo Alto IT Depot",
+    "on_hand": 15,
+    "reserved": 2,
+    "available": 13,
+    "supplier_id": "SUP100112",
+    "supplier_name": "Preferred IT Reseller (US)",
+    "channel": "Catalog / framework contract",
+    "contract_id": "FWK-US-IT-2025",
+    "unit_cost": 310,
+    "currency": "USD",
+    "std_lead_days": 3,
+    "current_lead_days": 3,
+    "supply_status": "AVAILABLE",
+    "disruption_note": null,
+    "fulfillment": "STOCK",
+    "readyDate": "2026-10-14",
+    "blocking": false,
+    "lostWorkdays": 0
+   },
+   {
+    "item_code": "MS-WL",
+    "item_name": "Wireless mouse",
+    "item_spec": "Wireless ergonomic mouse",
+    "quantity": 1,
+    "is_critical": false,
+    "site": "Palo Alto IT Depot",
+    "on_hand": 31,
+    "reserved": 2,
+    "available": 29,
+    "supplier_id": "SUP100112",
+    "supplier_name": "Preferred IT Reseller (US)",
+    "channel": "Catalog / framework contract",
+    "contract_id": "FWK-US-IT-2025",
+    "unit_cost": 35,
+    "currency": "USD",
+    "std_lead_days": 2,
+    "current_lead_days": 2,
+    "supply_status": "AVAILABLE",
+    "disruption_note": null,
+    "fulfillment": "STOCK",
+    "readyDate": "2026-10-14",
+    "blocking": false,
+    "lostWorkdays": 0
+   }
+  ],
+  "blocked": [
+   "LAP-ENG-16"
+  ]
+ },
+ "search": {
+  "item": {
+   "item_code": "LAP-ENG-16",
+   "item_name": "Engineering laptop 16\"",
+   "item_spec": "16\" Intel Core Ultra 7 / 32GB RAM / 1TB SSD / dGPU",
+   "quantity": 1,
+   "is_critical": true,
+   "site": "Palo Alto IT Depot",
+   "on_hand": 1,
+   "reserved": 1,
+   "available": 0,
+   "supplier_id": "SUP100112",
+   "supplier_name": "Preferred IT Reseller (US)",
+   "channel": "Catalog / framework contract",
+   "contract_id": "FWK-US-IT-2025",
+   "unit_cost": 2250,
+   "currency": "USD",
+   "std_lead_days": 7,
+   "current_lead_days": 42,
+   "supply_status": "BACKORDERED",
+   "disruption_note": "OEM allocation cut: standard-config business laptops backordered (memory/CPU allocation shortage). Supplier commits to 42-day ship.",
+   "fulfillment": "PREFERRED",
+   "readyDate": "2026-11-24",
+   "blocking": true,
+   "lostWorkdays": 17
+  },
+  "preferred": {
+   "vendor": "Preferred IT Reseller (US)",
+   "model": "16\" Intel Core Ultra 7 / 32GB RAM / 1TB SSD / dGPU",
+   "channel": "Catalog / framework contract (FWK-US-IT-2025)",
+   "unitCost": 2250,
+   "totalCost": 2250,
+   "currency": "USD",
+   "leadDays": 42,
+   "readyDate": "2026-11-24",
+   "lostWorkdays": 17,
+   "productivityCost": 10812,
+   "totalImpact": 13062,
+   "note": "OEM allocation cut: standard-config business laptops backordered (memory/CPU allocation shortage). Supplier commits to 42-day ship."
+  },
+  "alternatives": [
+   {
+    "id": "alt-8",
+    "channel": "Reseller in stock",
+    "currency": "USD",
+    "model": "Lenovo ThinkBook 16 Gen 8 Laptop",
+    "price": 1199.99,
+    "specMatch": "partial",
+    "specNotes": "16\" WUXGA, Intel Core 7 240H, 16GB DDR5, 512GB SSD. Less RAM (16GB vs 32GB) and storage (512GB vs 1TB), missing dGPU.",
+    "url": "https://www.amazon.com/Lenovo-ThinkPad-L16-Business-Fingerprint/dp/B0GJFRMSW4",
+    "vendor": "Amazon",
+    "leadDays": 7,
+    "unitCost": 1199.99,
+    "totalCost": 1199.99,
+    "convertedFrom": null,
+    "leadAssumed": true,
+    "readyDate": "2026-10-20",
+    "lostWorkdays": 0,
+    "productivityCost": 0,
+    "totalImpact": 1199.99,
+    "costDelta": -1050.01,
+    "daysSaved": 17,
+    "netBenefit": 11862.01
+   },
+   {
+    "id": "alt-2",
+    "channel": "Reseller in stock",
+    "currency": "USD",
+    "model": "Lenovo ThinkPad E16 Laptop",
+    "price": 1329.95,
+    "specMatch": "partial",
+    "specNotes": "16\" FHD+ Touchscreen, AMD Ryzen 7 7735U, 32GB DDR5, 1TB SSD. Wrong CPU brand (AMD vs Intel) and missing dGPU.",
+    "url": "https://www.amazon.com/Lenovo-ThinkPad-AI-Optimized-Business-Fingerprint/dp/B0DY21HY3W",
+    "vendor": "Amazon",
+    "leadDays": 7,
+    "unitCost": 1329.95,
+    "totalCost": 1329.95,
+    "convertedFrom": null,
+    "leadAssumed": true,
+    "readyDate": "2026-10-20",
+    "lostWorkdays": 0,
+    "productivityCost": 0,
+    "totalImpact": 1329.95,
+    "costDelta": -920.05,
+    "daysSaved": 17,
+    "netBenefit": 11732.05
+   },
+   {
+    "id": "alt-3",
+    "channel": "Reseller in stock",
+    "currency": "USD",
+    "model": "Lenovo ThinkPad E16 Gen 2",
+    "price": 1389.95,
+    "specMatch": "partial",
+    "specNotes": "16\" FHD+ Display, AMD Ryzen 7 7735HS, 32GB DDR5, 1TB SSD. Wrong CPU brand (AMD vs Intel) and missing dGPU.",
+    "url": "https://www.amazon.com/Lenovo-ThinkPad-AI-Optimized-Business-Fingerprint/dp/B0DY21HY3W",
+    "vendor": "Amazon",
+    "leadDays": 7,
+    "unitCost": 1389.95,
+    "totalCost": 1389.95,
+    "convertedFrom": null,
+    "leadAssumed": true,
+    "readyDate": "2026-10-20",
+    "lostWorkdays": 0,
+    "productivityCost": 0,
+    "totalImpact": 1389.95,
+    "costDelta": -860.05,
+    "daysSaved": 17,
+    "netBenefit": 11672.05
+   },
+   {
+    "id": "alt-1",
+    "channel": "Reseller in stock",
+    "currency": "USD",
+    "model": "Lenovo ThinkPad E16 Business AI Laptop",
+    "price": 1399.99,
+    "specMatch": "partial",
+    "specNotes": "16\" FHD+ Touchscreen, Intel Core Ultra 7 155U, 32GB DDR5, 1TB SSD. Missing dGPU requirement - has integrated graphics only.",
+    "url": "https://www.amazon.com/Lenovo-ThinkPad-AI-Optimized-Business-Fingerprint/dp/B0DY21HY3W",
+    "vendor": "Amazon",
+    "leadDays": 7,
+    "unitCost": 1399.99,
+    "totalCost": 1399.99,
+    "convertedFrom": null,
+    "leadAssumed": true,
+    "readyDate": "2026-10-20",
+    "lostWorkdays": 0,
+    "productivityCost": 0,
+    "totalImpact": 1399.99,
+    "costDelta": -850.01,
+    "daysSaved": 17,
+    "netBenefit": 11662.01
+   },
+   {
+    "id": "alt-4",
+    "channel": "Reseller in stock",
+    "currency": "USD",
+    "leadDays": 2,
+    "model": "Lenovo ThinkPad L16 Gen 2 Business AI Laptop",
+    "price": 1399.99,
+    "specMatch": "partial",
+    "specNotes": "16\" FHD+, Intel Core Ultra 7 255U, 32GB DDR5, 1TB SSD. Missing dGPU requirement - has integrated graphics only.",
+    "url": "https://www.amazon.com/Lenovo-ThinkPad-L16-Business-Fingerprint/dp/B0GJFRMSW4",
+    "vendor": "Amazon",
+    "unitCost": 1399.99,
+    "totalCost": 1399.99,
+    "convertedFrom": null,
+    "leadAssumed": false,
+    "readyDate": "2026-10-15",
+    "lostWorkdays": 0,
+    "productivityCost": 0,
+    "totalImpact": 1399.99,
+    "costDelta": -850.01,
+    "daysSaved": 17,
+    "netBenefit": 11662.01
+   },
+   {
+    "id": "alt-6",
+    "channel": "Refurbished",
+    "currency": "USD",
+    "model": "Lenovo ThinkPad L16 Gen 2 Business AI Laptop - Used Like New",
+    "price": 1399.99,
+    "specMatch": "partial",
+    "specNotes": "16\" FHD+, Intel Core Ultra 7 255U, 32GB DDR5, 1TB SSD. Missing dGPU requirement. Certified Refurbished condition.",
+    "url": "https://www.amazon.com/Lenovo-ThinkPad-L16-Business-Fingerprint/dp/B0GJFRMSW4",
+    "vendor": "Amazon",
+    "leadDays": 7,
+    "unitCost": 1399.99,
+    "totalCost": 1399.99,
+    "convertedFrom": null,
+    "leadAssumed": true,
+    "readyDate": "2026-10-20",
+    "lostWorkdays": 0,
+    "productivityCost": 0,
+    "totalImpact": 1399.99,
+    "costDelta": -850.01,
+    "daysSaved": 17,
+    "netBenefit": 11662.01
+   },
+   {
+    "id": "alt-7",
+    "channel": "Reseller in stock",
+    "currency": "USD",
+    "model": "Lenovo ThinkPad T16 G4",
+    "price": 1443.05,
+    "specMatch": "partial",
+    "specNotes": "16\" WUXGA Touch, Intel Core Ultra 7 255U, 32GB, 1TB SSD, W11P. Missing dGPU requirement - has integrated graphics only.",
+    "url": "https://www.ebay.com/itm/168555975658",
+    "vendor": "eBay",
+    "leadDays": 7,
+    "unitCost": 1443.05,
+    "totalCost": 1443.05,
+    "convertedFrom": null,
+    "leadAssumed": true,
+    "readyDate": "2026-10-20",
+    "lostWorkdays": 0,
+    "productivityCost": 0,
+    "totalImpact": 1443.05,
+    "costDelta": -806.95,
+    "daysSaved": 17,
+    "netBenefit": 11618.95
+   },
+   {
+    "id": "alt-5",
+    "channel": "Reseller in stock",
+    "currency": "USD",
+    "model": "Lenovo ThinkPad L16 Business AI PC Laptop",
+    "price": 1469.99,
+    "specMatch": "partial",
+    "specNotes": "16\" FHD+ Touchscreen, Intel Ultra 7 255U, 32GB DDR5, 1TB SSD. Missing dGPU requirement - has integrated graphics only.",
+    "url": "https://www.amazon.com/Lenovo-ThinkPad-L16-Business-Fingerprint/dp/B0GJFRMSW4",
+    "vendor": "Amazon",
+    "leadDays": 7,
+    "unitCost": 1469.99,
+    "totalCost": 1469.99,
+    "convertedFrom": null,
+    "leadAssumed": true,
+    "readyDate": "2026-10-20",
+    "lostWorkdays": 0,
+    "productivityCost": 0,
+    "totalImpact": 1469.99,
+    "costDelta": -780.01,
+    "daysSaved": 17,
+    "netBenefit": 11592.01
+   }
+  ],
+  "recommendedId": null,
+  "queries": [
+   "buy business laptop 16\" Intel Core Ultra 7 / 32GB RAM / 1TB SSD / dGPU in stock price United States",
+   "16\" Intel Core Ultra 7 / 32GB RAM / 1TB SSD / dGPU laptop alternative Dell Lenovo HP ships in days United States",
+   "refurbished business laptop 16\" Intel Core Ultra 7 / 32GB RAM / 1TB SSD / dGPU price United States"
+  ],
+  "sources": [
+   {
+    "title": "Lenovo ThinkPad E16 Business AI Laptop, 16\" FHD+ ... - amazon.com",
+    "url": "https://www.amazon.com/Lenovo-ThinkPad-AI-Optimized-Business-Fingerprint/dp/B0DY21HY3W"
+   },
+   {
+    "title": "Lenovo - Upgraded - ThinkPad L16 16\" FHD+ Laptop - Intel Core Ultra 7 ...",
+    "url": "https://www.bestbuy.com/product/lenovo-thinkpad-l16-16-fhd-laptop-intel-core-ultra-7-255u-32gb-ram-1tb-ssd-fp-reader-thunderobot-7-in-1-usb-c-hub-black/J3GWHCSRPC"
+   },
+   {
+    "title": "Lenovo ThinkPad L16 Business Laptop, Intel Core Ultra 7 255U, 16\" FHD+ ...",
+    "url": "https://www.walmart.com/ip/Lenovo-ThinkPad-Business-Laptop-Intel-Core-Ultra-7-255U-16-FHD-32GB-DDR5-1TB-SSD-Fingerprint-Backlit-Wi-Fi-6E-Windows-11-Pro-Black/19369120293"
+   },
+   {
+    "title": "Lenovo - Upgraded - ThinkPad L16 16\" FHD+ Touchscreen Laptop - Best Buy",
+    "url": "https://www.bestbuy.com/product/lenovo-thinkpad-l16-16-fhd-touchscreen-laptop-business-ai-pc-intel-core-ultra-7-255u-2025-32gb-ram-1tb-ssd-win11pro-jet-black/J3GWQRFYT2"
+   },
+   {
+    "title": "Dell Pro 16 Plus 16\" Laptop, Intel Core Ultra 7 268V, 32GB RAM, 1TB SSD ...",
+    "url": "https://www.walmart.com/ip/Dell-Pro-16-Plus-16-Laptop-Intel-Core-Ultra-7-268V-1TB-SSD-Windows-11-Pro-PB16250/16381669830"
+   },
+   {
+    "title": "Shop 16\" 32 GB Intel Core Ultra 7 Laptops | HP® Store",
+    "url": "https://www.hp.com/us-en/shop/vwa/laptops/mem=32-GB&proc=Intel-Core-Ultra-7&scrs=16-"
+   },
+   {
+    "title": "32 GB Intel Core Ultra 7 1 TB Laptops - HP",
+    "url": "https://www.hp.com/us-en/shop/vwa/laptops/mem=32-GB&proc=Intel-Core-Ultra-7&stor=1-TB"
+   },
+   {
+    "title": "Lenovo 2026 ThinkPad T16 Gen 5 w/Ultra 7 365, 32GB LPDDR5X RAM, 1TB SSD",
+    "url": "https://www.amazon.com/Lenovo-ThinkPad-T16-Gen-LPDDR5X/dp/B0H7YWCJ7H"
+   },
+   {
+    "title": "Lenovo ThinkPad E16 Laptop, Intel Ultra 7 255H, 32GB DDR5 RAM, 1TB SSD",
+    "url": "https://www.amazon.com/Lenovo-ThinkPad-E16-Laptop-Intel/dp/B0GWZ3HLNC"
+   },
+   {
+    "title": "Lenovo ThinkPad T16 Gen 5 Laptop Intel Core Ultra 7 365 (vPro) / 32GB ...",
+    "url": "https://www.bestbuy.com/product/lenovo-thinkpad-t16-gen-5-laptop-intel-core-ultra-7-365-vpro-32gb-ram-1tb-ssd-16-wuxga-ips-touch-w11-pro-black/JJGH3KV6HJ"
+   },
+   {
+    "title": "Amazon.com: Laptop I7 32gb Ram 1tb Ssd Refurbished",
+    "url": "https://www.amazon.com/s?k=laptop+i7+32gb+ram+1tb+ssd+refurbished"
+   },
+   {
+    "title": "Lenovo ThinkPad T16 G4 16\" WUXGA Touch Intel Core Ultra 7 255U 32GB 1TB ...",
+    "url": "https://www.ebay.com/itm/168555975658"
+   },
+   {
+    "title": "Lenovo ThinkPad L16 Gen 2 Business AI Laptop, 16\" FHD+, Intel Core ...",
+    "url": "https://www.amazon.com/Lenovo-ThinkPad-L16-Business-Fingerprint/dp/B0GJFRMSW4"
+   },
+   {
+    "title": "Refurbished: HP 16-ay0000 OmniBook 7 AI Laptop - Intel Core Ultra 7 ...",
+    "url": "https://www.neweggbusiness.com/hp-16/p/9B-1TS-000D-1TKF2"
+   },
+   {
+    "title": "Acer Refurbished Excellent 16\" Aspire 16 AI Copilot+ Laptop WUXGA Intel ...",
+    "url": "https://www.bestbuy.com/product/acer-16-aspire-16-ai-copilot-laptop-wuxga-intel-core-ultra-9288v-32gb-1tb-ssd/JJ8V8HGZW3"
+   }
+  ]
+ },
+ "result": {
+  "requestId": "ONB-20261013164523",
+  "personIdExternal": "NH1013164523",
+  "status": "PENDING_SOURCING",
+  "payload": {
+   "__metadata": {
+    "uri": "/odata/v2/upsert"
+   },
+   "entities": [
+    {
+     "__metadata": {
+      "type": "SFOData.PerPerson"
+     },
+     "personIdExternal": "NH1013164523"
+    },
+    {
+     "__metadata": {
+      "type": "SFOData.PerPersonal"
+     },
+     "personIdExternal": "NH1013164523",
+     "firstName": "Jordan",
+     "lastName": "Lee",
+     "startDate": "2026-10-30"
+    },
+    {
+     "__metadata": {
+      "type": "SFOData.EmpEmployment"
+     },
+     "personIdExternal": "NH1013164523",
+     "userId": "NH1013164523",
+     "startDate": "2026-10-30"
+    },
+    {
+     "__metadata": {
+      "type": "SFOData.EmpJob"
+     },
+     "userId": "NH1013164523",
+     "startDate": "2026-10-30",
+     "jobTitle": "Senior Engineer",
+     "department": "Engineering",
+     "company": "US Operations",
+     "payGrade": "5",
+     "flsaStatus": "Exempt",
+     "eventReason": "HIRNEW",
+     "customString1": "ONB-20261013164523"
+    },
+    {
+     "__metadata": {
+      "type": "SFOData.EmpCompensation"
+     },
+     "userId": "NH1013164523",
+     "startDate": "2026-10-30",
+     "eventReason": "HIRNEW"
+    },
+    {
+     "__metadata": {
+      "type": "SFOData.EmpPayCompRecurring"
+     },
+     "userId": "NH1013164523",
+     "startDate": "2026-10-30",
+     "payComponent": "BASE_SALARY",
+     "paycompvalue": 127200,
+     "currencyCode": "USD",
+     "frequency": "ANN"
+    },
+    {
+     "__metadata": {
+      "type": "SFOData.cust_EquipmentRequest"
+     },
+     "externalCode": "ONB-20261013164523",
+     "cust_userId": "NH1013164523",
+     "cust_lines": [
+      {
+       "itemCode": "BADGE",
+       "qty": 1,
+       "fulfillment": "STOCK",
+       "supplier": "Palo Alto IT Depot",
+       "expectedDate": "2026-10-14"
+      },
+      {
+       "itemCode": "LAP-ENG-16",
+       "qty": 1,
+       "fulfillment": "SUBSTITUTE",
+       "supplier": "Amazon",
+       "expectedDate": "2026-10-20"
+      },
+      {
+       "itemCode": "DOCK-USBC",
+       "qty": 1,
+       "fulfillment": "STOCK",
+       "supplier": "Palo Alto IT Depot",
+       "expectedDate": "2026-10-14"
+      },
+      {
+       "itemCode": "HS-UC",
+       "qty": 1,
+       "fulfillment": "STOCK",
+       "supplier": "Palo Alto IT Depot",
+       "expectedDate": "2026-10-14"
+      },
+      {
+       "itemCode": "KB-WL",
+       "qty": 1,
+       "fulfillment": "STOCK",
+       "supplier": "Palo Alto IT Depot",
+       "expectedDate": "2026-10-14"
+      },
+      {
+       "itemCode": "MON-27",
+       "qty": 2,
+       "fulfillment": "STOCK",
+       "supplier": "Palo Alto IT Depot",
+       "expectedDate": "2026-10-14"
+      },
+      {
+       "itemCode": "MS-WL",
+       "qty": 1,
+       "fulfillment": "STOCK",
+       "supplier": "Palo Alto IT Depot",
+       "expectedDate": "2026-10-14"
+      }
+     ],
+     "cust_status": "SUBSTITUTE_SOURCING_REQUESTED"
+    }
+   ]
+  }
+ },
+ "history": [
+  {
+   "request_id": "ONB-20261013164523",
+   "person_id_external": "NH1013164523",
+   "candidate_name": "Jordan Lee",
+   "job_title": "Senior Engineer",
+   "company": "US Operations",
+   "start_date": "2026-10-30",
+   "status": "PENDING_SOURCING",
+   "created_at": "2026-10-13 09:45:23.350 -0700",
+   "substitute_vendor": "Amazon",
+   "substitute_model": "Lenovo ThinkBook 16 Gen 8 Laptop"
+  }
+ ]
+}

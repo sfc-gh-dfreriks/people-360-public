@@ -103,3 +103,40 @@ export async function runAnalystSql(sql: string) {
   if (!res.ok) throw new Error(`API error: ${res.status}`);
   return res.json();
 }
+
+// --------------------------------------------------------------------------
+// Onboarding scenario. Live: the Express server (web search + write-back).
+// Static/public build: replays one recorded real run (data/onboarding_replay.json,
+// written by scripts/record-onboarding.mjs) - inputs are fixed to that run.
+// --------------------------------------------------------------------------
+export const ONBOARDING_REPLAY = STATIC;
+export const ONBOARDING_LIVE_ONLY = false;
+const replay = () => loadStaticFile('onboarding_replay');
+export const fetchOnboardingReplayMeta = () =>
+  replay().then((r: any) => ({ recordedAt: r.recordedAt as string, form: r.form, chosenId: r.chosenId as string }));
+
+async function onbGet<T>(path: string): Promise<T> {
+  const res = await fetch(`${BASE}/onboarding${path}`);
+  const body = await res.json();
+  if (!res.ok) throw Object.assign(new Error(body.error ?? `API error: ${res.status}`), { code: body.code });
+  return body;
+}
+async function onbPost<T>(path: string, payload: unknown): Promise<T> {
+  const res = await fetch(`${BASE}/onboarding${path}`, {
+    method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(payload),
+  });
+  const body = await res.json();
+  if (!res.ok) throw Object.assign(new Error(body.error ?? `API error: ${res.status}`), { code: body.code });
+  return body;
+}
+
+export const fetchOnboardingOptions = () => STATIC ? replay().then((r: any) => r.options)
+  : onbGet<{ titles: string[]; departments: string[]; companies: string[] }>('/options');
+export const fetchOnboardingTemplate = (title: string, company: string, department: string) => STATIC ? replay().then((r: any) => r.template)
+  : onbGet<any>(`/template?${new URLSearchParams({ title, company, department })}`);
+export const fetchOnboardingKit = (roleFamily: string, company: string, startDate: string) => STATIC ? replay().then((r: any) => r.kit)
+  : onbGet<{ items: any[]; blocked: string[] }>(`/kit?${new URLSearchParams({ roleFamily, company, startDate })}`);
+export const searchOnboardingAlternatives = (p: { itemCode: string; roleFamily: string; company: string; startDate: string; dailyLoadedCost: number }) =>
+  STATIC ? replay().then((r: any) => ({ ...r.search, recommendedId: r.search.recommendedId ?? r.chosenId })) : onbPost<any>('/alternatives', p);
+export const submitOnboarding = (p: unknown) => STATIC ? replay().then((r: any) => r.result) : onbPost<any>('/submit', p);
+export const fetchOnboardingHistory = () => STATIC ? replay().then((r: any) => r.history ?? []) : onbGet<any[]>('/history');

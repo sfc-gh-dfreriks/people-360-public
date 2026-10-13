@@ -1,13 +1,13 @@
 import {
   LayoutDashboard, Users, PieChart, DollarSign, TrendingDown, Network, Table2, Bot, Check,
-  Star, GraduationCap, UserPlus, GitBranch,
+  Star, GraduationCap, UserPlus, GitBranch, UserCog,
 } from 'lucide-react';
 import { useFilters } from '@/hooks/useFilters';
 import { cn } from '@/lib/utils';
 
 export type PageId =
   | 'overview' | 'headcount' | 'diversity' | 'compensation'
-  | 'attrition' | 'org' | 'performance' | 'learning' | 'recruiting' | 'employees' | 'lineage' | 'analyst';
+  | 'attrition' | 'org' | 'performance' | 'learning' | 'recruiting' | 'onboarding' | 'employees' | 'lineage' | 'analyst';
 
 export interface NavItem { id: PageId; label: string; icon: React.ElementType; }
 
@@ -20,6 +20,7 @@ export const NAV_ITEMS: NavItem[] = [
   { id: 'performance', label: 'Performance', icon: Star },
   { id: 'learning', label: 'Learning', icon: GraduationCap },
   { id: 'recruiting', label: 'Recruiting', icon: UserPlus },
+  { id: 'onboarding', label: 'Onboarding Scenario', icon: UserCog },
   { id: 'org', label: 'Org & Span', icon: Network },
   { id: 'employees', label: 'Employees', icon: Table2 },
   { id: 'lineage', label: 'BDC Sources & Lineage', icon: GitBranch },
