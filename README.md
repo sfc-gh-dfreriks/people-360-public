@@ -21,6 +21,9 @@ separate serverless Cortex agent when configured.
   # from the people_360_react monorepo, with the server running:
   EXPORT_BASE=http://localhost:3006 node scripts/export-static.mjs
   ```
+- **Ask Cortex:** the first page and each page's "Ask Cortex about <page>" button show
+  Cortex analyses baked at export time (`public/data/ask_cortex.json`). Custom questions
+  go to `AGENT_URL` when set; otherwise a "not available in this static build" note shows.
 - **Live agent (optional):** set the repo variable `AGENT_URL` to a deployed Cortex
   agent Worker URL. If unset, the Analyst page shows a "not available" notice but the
   dashboards work fully.
