@@ -2,8 +2,8 @@
 
 A static, no-login public build of the SAP BDC People 360 dashboard, deployed to
 GitHub Pages. Dashboards render from a **point-in-time data snapshot** (no Snowflake
-connection, no credentials in the browser). The optional "Ask the Agent" page calls a
-separate serverless Cortex agent when configured.
+connection, no credentials in the browser). The site opens on the Executive Dashboard,
+second in the menu beneath Ask Cortex.
 
 ## How it works
 
@@ -25,7 +25,7 @@ separate serverless Cortex agent when configured.
   Cortex analyses baked at export time (`public/data/ask_cortex.json`). Custom questions
   go to `AGENT_URL` when set; otherwise a "not available in this static build" note shows.
 - **Live agent (optional):** set the repo variable `AGENT_URL` to a deployed Cortex
-  agent Worker URL. If unset, the Analyst page shows a "not available" notice but the
+  agent Worker URL. If unset, custom Ask Cortex questions show a "not available" notice but the
   dashboards work fully.
 
 ## Local build
